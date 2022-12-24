@@ -3,7 +3,24 @@
         "id":1,
         "subject":"SSL issue",
         "status":"Pending",
-        "addedAt":"2022-12-20"
+        "addedAt":"2022-12-20",
+        "history": [
+            {
+              "dat": "2022-12-20",
+              "message": "First message",
+              "messageBy": "client"
+            },
+            {
+              "dat": "2022-12-20",
+              "message": "second message",
+              "messageBy": "client1"
+            },
+            {
+              "dat": "2022-12-20",
+              "message": "Third message",
+              "messageBy": "client3"
+            }
+          ]
     },
     {
         "id":2,
