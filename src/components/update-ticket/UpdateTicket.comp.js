@@ -5,7 +5,7 @@ export const UpdateTicket = ({message, handleOnChange,handleOnSubmit}) => {
   return (
     <div>
     <Form onSubmit={handleOnSubmit}>
-      <Form.Label>Reply  </Form.Label>
+      <Form.Label>Reply  </Form.Label><br></br>
       <Form.Text>
          Please reply your message here or update the ticket
       </Form.Text>
